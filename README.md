@@ -6,6 +6,8 @@ XmlUtils
 
 使用示例：  
 
+    
+{% codeblock  lang:java 客户端示例%}
         ByteArrayInputStream xmlStream = null;
 				try {
 					xmlStream = new ByteArrayInputStream(users.getBytes("GBK"));
@@ -24,3 +26,4 @@ XmlUtils
 						return null;
 					}
 				});
+{% endcodeblock %}   
