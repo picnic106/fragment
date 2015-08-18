@@ -1,3 +1,4 @@
+<%
 String cookievalue=null;
   Cookie[] cooke=request.getCookies();
   for (int i=0;i<cooke.length;i++){
@@ -10,3 +11,4 @@ String cookievalue=null;
     Cookie newCookie=new Cookie("jspcookie","ceshi");
     response.addCookie(newCookie);
   }
+%>
